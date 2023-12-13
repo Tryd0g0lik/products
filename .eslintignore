@@ -1,0 +1,9 @@
+*.config.js
+.*
+webpack.*.js
+
+**/dist
+
+node_modules
+**/
+*.jsx
