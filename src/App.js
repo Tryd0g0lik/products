@@ -3,12 +3,14 @@ import Store from './components/Store'
 import {products} from './components/data'
 import './App.css';
 
-class App extends React.Component {
-  render() {
-    return <Store products={products}/>
-  }
-};
+
+export default function App() {
+  return (<Store products={products} />)
+}
 
 
-
-export default App;
+// class App extends React.Component {
+//   render() {
+//     return <Store products={products}/>
+//   }
+// };

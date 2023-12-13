@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types'
 
 function CardsView(props) {
   let {cards} = props
@@ -10,6 +9,3 @@ function CardsView(props) {
   
 export default CardsView
 
-CardsView.propTypes = {
-  cards: PropTypes.instanceOf(Object).isRequired
-}
