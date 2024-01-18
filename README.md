@@ -7,3 +7,5 @@
 - `css`;
 - `React`.
 
+## The code
+Код рабочий на "github-pages". Не чистил от логов.
